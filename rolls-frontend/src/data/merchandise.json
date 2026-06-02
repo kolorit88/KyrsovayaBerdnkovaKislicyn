@@ -1,0 +1,893 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "бизнес-ланч",
+      "slug": "business-lunch",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 1,
+          "category_id": 1,
+          "name": "Бизнес-ланч Стандарт",
+          "description": "Суп дня, роллы на выбор, напиток",
+          "image": "business_lunch_standard.jpg",
+          "variations": [
+            {
+              "id": 1,
+              "merchandise_id": 1,
+              "quantity": 30,
+              "price": 350,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 450
+            },
+            {
+              "id": 2,
+              "merchandise_id": 1,
+              "quantity": 20,
+              "price": 450,
+              "variation_text": "Большая порция",
+              "weight_gram": 650
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "category_id": 1,
+          "name": "Бизнес-ланч Премиум",
+          "description": "Суп дня, роллы на выбор, салат, напиток, десерт",
+          "image": "business_lunch_premium.jpg",
+          "variations": [
+            {
+              "id": 3,
+              "merchandise_id": 2,
+              "quantity": 25,
+              "price": 550,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 650
+            },
+            {
+              "id": 4,
+              "merchandise_id": 2,
+              "quantity": 15,
+              "price": 750,
+              "variation_text": "Премиум порция",
+              "weight_gram": 900
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "category_id": 1,
+          "name": "Бизнес-ланч Лайт",
+          "description": "Салат, мини-роллы, вода",
+          "image": "business_lunch_light.jpg",
+          "variations": [
+            {
+              "id": 5,
+              "merchandise_id": 3,
+              "quantity": 35,
+              "price": 250,
+              "variation_text": "Лайт порция",
+              "weight_gram": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "роллы мини",
+      "slug": "mini-rolls",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 4,
+          "category_id": 2,
+          "name": "Мини-роллы с лососем",
+          "description": "Маленькие роллы с лососем и сливочным сыром",
+          "image": "mini_salmon.jpg",
+          "variations": [
+            {
+              "id": 6,
+              "merchandise_id": 4,
+              "quantity": 40,
+              "price": 280,
+              "variation_text": "12 шт.",
+              "weight_gram": 180
+            },
+            {
+              "id": 7,
+              "merchandise_id": 4,
+              "quantity": 30,
+              "price": 450,
+              "variation_text": "24 шт.",
+              "weight_gram": 360
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "category_id": 2,
+          "name": "Мини-роллы с тунцом",
+          "description": "Нежные мини-роллы с тунцом и авокадо",
+          "image": "mini_tuna.jpg",
+          "variations": [
+            {
+              "id": 8,
+              "merchandise_id": 5,
+              "quantity": 35,
+              "price": 300,
+              "variation_text": "12 шт.",
+              "weight_gram": 180
+            },
+            {
+              "id": 9,
+              "merchandise_id": 5,
+              "quantity": 25,
+              "price": 480,
+              "variation_text": "24 шт.",
+              "weight_gram": 360
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "category_id": 2,
+          "name": "Мини-роллы с огурцом",
+          "description": "Вегетарианские мини-роллы с огурцом и сливочным сыром",
+          "image": "mini_cucumber.jpg",
+          "variations": [
+            {
+              "id": 10,
+              "merchandise_id": 6,
+              "quantity": 45,
+              "price": 180,
+              "variation_text": "12 шт.",
+              "weight_gram": 160
+            },
+            {
+              "id": 11,
+              "merchandise_id": 6,
+              "quantity": 40,
+              "price": 280,
+              "variation_text": "24 шт.",
+              "weight_gram": 320
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "category_id": 2,
+          "name": "Ассорти мини-роллов",
+          "description": "Микс мини-роллов: лосось, тунец, огурец",
+          "image": "mini_assorted.jpg",
+          "variations": [
+            {
+              "id": 12,
+              "merchandise_id": 7,
+              "quantity": 20,
+              "price": 550,
+              "variation_text": "18 шт. (по 6 каждого вида)",
+              "weight_gram": 270
+            },
+            {
+              "id": 13,
+              "merchandise_id": 7,
+              "quantity": 15,
+              "price": 950,
+              "variation_text": "36 шт. (по 12 каждого вида)",
+              "weight_gram": 540
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "роллы",
+      "slug": "rolls",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 8,
+          "category_id": 3,
+          "name": "Филадельфия классическая",
+          "description": "Лосось, сливочный сыр, огурец",
+          "image": "philadelphia_classic.jpg",
+          "variations": [
+            {
+              "id": 14,
+              "merchandise_id": 8,
+              "quantity": 50,
+              "price": 450,
+              "variation_text": "8 шт.",
+              "weight_gram": 280
+            },
+            {
+              "id": 15,
+              "merchandise_id": 8,
+              "quantity": 40,
+              "price": 650,
+              "variation_text": "16 шт.",
+              "weight_gram": 560
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "category_id": 3,
+          "name": "Филадельфия с угрём",
+          "description": "Угорь, сливочный сыр, огурец, соус унаги",
+          "image": "philadelphia_eel.jpg",
+          "variations": [
+            {
+              "id": 16,
+              "merchandise_id": 9,
+              "quantity": 35,
+              "price": 550,
+              "variation_text": "8 шт.",
+              "weight_gram": 290
+            },
+            {
+              "id": 17,
+              "merchandise_id": 9,
+              "quantity": 25,
+              "price": 850,
+              "variation_text": "16 шт.",
+              "weight_gram": 580
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "category_id": 3,
+          "name": "Калифорния",
+          "description": "Крабовое мясо, авокадо, огурец, икра тобико",
+          "image": "california.jpg",
+          "variations": [
+            {
+              "id": 18,
+              "merchandise_id": 10,
+              "quantity": 45,
+              "price": 380,
+              "variation_text": "8 шт.",
+              "weight_gram": 270
+            },
+            {
+              "id": 19,
+              "merchandise_id": 10,
+              "quantity": 35,
+              "price": 580,
+              "variation_text": "16 шт.",
+              "weight_gram": 540
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "category_id": 3,
+          "name": "Дракон",
+          "description": "Креветка темпура, авокадо, соус спайси",
+          "image": "dragon.jpg",
+          "variations": [
+            {
+              "id": 20,
+              "merchandise_id": 11,
+              "quantity": 40,
+              "price": 420,
+              "variation_text": "8 шт.",
+              "weight_gram": 300
+            },
+            {
+              "id": 21,
+              "merchandise_id": 11,
+              "quantity": 30,
+              "price": 680,
+              "variation_text": "16 шт.",
+              "weight_gram": 600
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "category_id": 3,
+          "name": "Цезарь ролл",
+          "description": "Курица, салат айсберг, пармезан, соус цезарь",
+          "image": "caesar_roll.jpg",
+          "variations": [
+            {
+              "id": 22,
+              "merchandise_id": 12,
+              "quantity": 50,
+              "price": 320,
+              "variation_text": "8 шт.",
+              "weight_gram": 280
+            },
+            {
+              "id": 23,
+              "merchandise_id": 12,
+              "quantity": 40,
+              "price": 520,
+              "variation_text": "16 шт.",
+              "weight_gram": 560
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "жареные роллы",
+      "slug": "fried-rolls",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 13,
+          "category_id": 4,
+          "name": "Темпура ролл с лососем",
+          "description": "Лосось, сливочный сыр в хрустящей темпуре",
+          "image": "tempura_salmon.jpg",
+          "variations": [
+            {
+              "id": 24,
+              "merchandise_id": 13,
+              "quantity": 35,
+              "price": 380,
+              "variation_text": "8 шт.",
+              "weight_gram": 320
+            },
+            {
+              "id": 25,
+              "merchandise_id": 13,
+              "quantity": 25,
+              "price": 620,
+              "variation_text": "16 шт.",
+              "weight_gram": 640
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "category_id": 4,
+          "name": "Темпура ролл с креветкой",
+          "description": "Креветка, сливочный сыр, огурец в темпуре",
+          "image": "tempura_shrimp.jpg",
+          "variations": [
+            {
+              "id": 26,
+              "merchandise_id": 14,
+              "quantity": 40,
+              "price": 350,
+              "variation_text": "8 шт.",
+              "weight_gram": 310
+            },
+            {
+              "id": 27,
+              "merchandise_id": 14,
+              "quantity": 30,
+              "price": 580,
+              "variation_text": "16 шт.",
+              "weight_gram": 620
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "category_id": 4,
+          "name": "Горячий дракон",
+          "description": "Угорь, авокадо, сливочный сыр в темпуре",
+          "image": "hot_dragon.jpg",
+          "variations": [
+            {
+              "id": 28,
+              "merchandise_id": 15,
+              "quantity": 30,
+              "price": 480,
+              "variation_text": "8 шт.",
+              "weight_gram": 330
+            },
+            {
+              "id": 29,
+              "merchandise_id": 15,
+              "quantity": 20,
+              "price": 780,
+              "variation_text": "16 шт.",
+              "weight_gram": 660
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "запеченные роллы",
+      "slug": "baked-rolls",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 16,
+          "category_id": 5,
+          "name": "Запеченный ролл с лососем",
+          "description": "Лосось, сливочный сыр, запечен под соусом",
+          "image": "baked_salmon.jpg",
+          "variations": [
+            {
+              "id": 30,
+              "merchandise_id": 16,
+              "quantity": 35,
+              "price": 420,
+              "variation_text": "8 шт.",
+              "weight_gram": 340
+            },
+            {
+              "id": 31,
+              "merchandise_id": 16,
+              "quantity": 25,
+              "price": 680,
+              "variation_text": "16 шт.",
+              "weight_gram": 680
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "category_id": 5,
+          "name": "Запеченный ролл с мидиями",
+          "description": "Мидии, сливочный сыр, икра тобико, запечен",
+          "image": "baked_mussels.jpg",
+          "variations": [
+            {
+              "id": 32,
+              "merchandise_id": 17,
+              "quantity": 30,
+              "price": 460,
+              "variation_text": "8 шт.",
+              "weight_gram": 330
+            },
+            {
+              "id": 33,
+              "merchandise_id": 17,
+              "quantity": 20,
+              "price": 720,
+              "variation_text": "16 шт.",
+              "weight_gram": 660
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "пицца",
+      "slug": "pizza",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 18,
+          "category_id": 6,
+          "name": "Пицца Маргарита",
+          "description": "Томатный соус, моцарелла, базилик",
+          "image": "pizza_margarita.jpg",
+          "variations": [
+            {
+              "id": 34,
+              "merchandise_id": 18,
+              "quantity": 30,
+              "price": 450,
+              "variation_text": "Средняя (30 см)",
+              "weight_gram": 500
+            },
+            {
+              "id": 35,
+              "merchandise_id": 18,
+              "quantity": 25,
+              "price": 650,
+              "variation_text": "Большая (40 см)",
+              "weight_gram": 800
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "category_id": 6,
+          "name": "Пицца Пепперони",
+          "description": "Пепперони, моцарелла, томатный соус",
+          "image": "pizza_pepperoni.jpg",
+          "variations": [
+            {
+              "id": 36,
+              "merchandise_id": 19,
+              "quantity": 35,
+              "price": 480,
+              "variation_text": "Средняя (30 см)",
+              "weight_gram": 520
+            },
+            {
+              "id": 37,
+              "merchandise_id": 19,
+              "quantity": 25,
+              "price": 680,
+              "variation_text": "Большая (40 см)",
+              "weight_gram": 820
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "category_id": 6,
+          "name": "Пицца с лососем",
+          "description": "Лосось, сливочный сыр, каперсы, красный лук",
+          "image": "pizza_salmon.jpg",
+          "variations": [
+            {
+              "id": 38,
+              "merchandise_id": 20,
+              "quantity": 20,
+              "price": 680,
+              "variation_text": "Средняя (30 см)",
+              "weight_gram": 480
+            },
+            {
+              "id": 39,
+              "merchandise_id": 20,
+              "quantity": 15,
+              "price": 980,
+              "variation_text": "Большая (40 см)",
+              "weight_gram": 780
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "лапша wok",
+      "slug": "wok-noodles",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 21,
+          "category_id": 7,
+          "name": "Wok с курицей",
+          "description": "Лапша удон, курица, овощи, соус терияки",
+          "image": "wok_chicken.jpg",
+          "variations": [
+            {
+              "id": 40,
+              "merchandise_id": 21,
+              "quantity": 40,
+              "price": 320,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 400
+            },
+            {
+              "id": 41,
+              "merchandise_id": 21,
+              "quantity": 30,
+              "price": 480,
+              "variation_text": "Большая порция",
+              "weight_gram": 600
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "category_id": 7,
+          "name": "Wok с креветками",
+          "description": "Лапша удон, креветки, овощи, соус сладкий чили",
+          "image": "wok_shrimp.jpg",
+          "variations": [
+            {
+              "id": 42,
+              "merchandise_id": 22,
+              "quantity": 35,
+              "price": 380,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 380
+            },
+            {
+              "id": 43,
+              "merchandise_id": 22,
+              "quantity": 25,
+              "price": 580,
+              "variation_text": "Большая порция",
+              "weight_gram": 580
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "category_id": 7,
+          "name": "Wok с говядиной",
+          "description": "Лапша соба, говядина, овощи, соус хойсин",
+          "image": "wok_beef.jpg",
+          "variations": [
+            {
+              "id": 44,
+              "merchandise_id": 23,
+              "quantity": 30,
+              "price": 350,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 400
+            },
+            {
+              "id": 45,
+              "merchandise_id": 23,
+              "quantity": 20,
+              "price": 520,
+              "variation_text": "Большая порция",
+              "weight_gram": 600
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "category_id": 7,
+          "name": "Wok с тофу и овощами",
+          "description": "Рисовая лапша, тофу, овощи, соевый соус",
+          "image": "wok_tofu.jpg",
+          "variations": [
+            {
+              "id": 46,
+              "merchandise_id": 24,
+              "quantity": 30,
+              "price": 280,
+              "variation_text": "Стандартная порция",
+              "weight_gram": 380
+            },
+            {
+              "id": 47,
+              "merchandise_id": 24,
+              "quantity": 20,
+              "price": 420,
+              "variation_text": "Большая порция",
+              "weight_gram": 580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "сопутствующие товары",
+      "slug": "additional",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 25,
+          "category_id": 8,
+          "name": "Палочки для еды",
+          "description": "Деревянные палочки (пара)",
+          "image": "chopsticks.jpg",
+          "variations": [
+            {
+              "id": 48,
+              "merchandise_id": 25,
+              "quantity": 200,
+              "price": 10,
+              "variation_text": "1 пара",
+              "weight_gram": 10
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "category_id": 8,
+          "name": "Соевый соус",
+          "description": "Соевый соус Kikkoman",
+          "image": "soy_sauce.jpg",
+          "variations": [
+            {
+              "id": 49,
+              "merchandise_id": 26,
+              "quantity": 100,
+              "price": 30,
+              "variation_text": "1 порция (30 мл)",
+              "weight_gram": 35
+            },
+            {
+              "id": 50,
+              "merchandise_id": 26,
+              "quantity": 50,
+              "price": 80,
+              "variation_text": "Бутылочка (150 мл)",
+              "weight_gram": 165
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "category_id": 8,
+          "name": "Имбирь маринованный",
+          "description": "Маринованный имбирь гари",
+          "image": "ginger.jpg",
+          "variations": [
+            {
+              "id": 51,
+              "merchandise_id": 27,
+              "quantity": 80,
+              "price": 25,
+              "variation_text": "1 порция (20 г)",
+              "weight_gram": 25
+            },
+            {
+              "id": 52,
+              "merchandise_id": 27,
+              "quantity": 40,
+              "price": 70,
+              "variation_text": "Большая порция (100 г)",
+              "weight_gram": 105
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "category_id": 8,
+          "name": "Васаби",
+          "description": "Японский хрен васаби",
+          "image": "wasabi.jpg",
+          "variations": [
+            {
+              "id": 53,
+              "merchandise_id": 28,
+              "quantity": 100,
+              "price": 15,
+              "variation_text": "1 порция (5 г)",
+              "weight_gram": 7
+            },
+            {
+              "id": 54,
+              "merchandise_id": 28,
+              "quantity": 50,
+              "price": 40,
+              "variation_text": "Большая порция (20 г)",
+              "weight_gram": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "напитки",
+      "slug": "drinks",
+      "description": "",
+      "merchandises": [
+        {
+          "id": 29,
+          "category_id": 9,
+          "name": "Coca-Cola",
+          "description": "Газированный напиток",
+          "image": "coca_cola.jpg",
+          "variations": [
+            {
+              "id": 55,
+              "merchandise_id": 29,
+              "quantity": 150,
+              "price": 80,
+              "variation_text": "0.33 л",
+              "weight_gram": 350
+            },
+            {
+              "id": 56,
+              "merchandise_id": 29,
+              "quantity": 100,
+              "price": 120,
+              "variation_text": "0.5 л",
+              "weight_gram": 520
+            },
+            {
+              "id": 57,
+              "merchandise_id": 29,
+              "quantity": 60,
+              "price": 180,
+              "variation_text": "1 л",
+              "weight_gram": 1020
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "category_id": 9,
+          "name": "Сок апельсиновый",
+          "description": "Свежевыжатый апельсиновый сок",
+          "image": "orange_juice.jpg",
+          "variations": [
+            {
+              "id": 58,
+              "merchandise_id": 30,
+              "quantity": 80,
+              "price": 150,
+              "variation_text": "0.25 л",
+              "weight_gram": 260
+            },
+            {
+              "id": 59,
+              "merchandise_id": 30,
+              "quantity": 50,
+              "price": 250,
+              "variation_text": "0.5 л",
+              "weight_gram": 510
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "category_id": 9,
+          "name": "Чай зелёный",
+          "description": "Японский зелёный чай сенча",
+          "image": "green_tea.jpg",
+          "variations": [
+            {
+              "id": 60,
+              "merchandise_id": 31,
+              "quantity": 100,
+              "price": 90,
+              "variation_text": "Чашка (200 мл)",
+              "weight_gram": 210
+            },
+            {
+              "id": 61,
+              "merchandise_id": 31,
+              "quantity": 70,
+              "price": 150,
+              "variation_text": "Чайник (500 мл)",
+              "weight_gram": 520
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "category_id": 9,
+          "name": "Вода минеральная",
+          "description": "Минеральная вода без газа",
+          "image": "mineral_water.jpg",
+          "variations": [
+            {
+              "id": 62,
+              "merchandise_id": 32,
+              "quantity": 200,
+              "price": 50,
+              "variation_text": "0.5 л",
+              "weight_gram": 510
+            },
+            {
+              "id": 63,
+              "merchandise_id": 32,
+              "quantity": 150,
+              "price": 80,
+              "variation_text": "1 л",
+              "weight_gram": 1010
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "category_id": 9,
+          "name": "Лимонад домашний",
+          "description": "Домашний лимонад с мятой и лаймом",
+          "image": "lemonade.jpg",
+          "variations": [
+            {
+              "id": 64,
+              "merchandise_id": 33,
+              "quantity": 60,
+              "price": 120,
+              "variation_text": "0.3 л",
+              "weight_gram": 320
+            },
+            {
+              "id": 65,
+              "merchandise_id": 33,
+              "quantity": 40,
+              "price": 200,
+              "variation_text": "0.5 л",
+              "weight_gram": 520
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
